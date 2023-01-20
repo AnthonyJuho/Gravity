@@ -45,8 +45,9 @@ body {
 }
 .option p {
     position: absolute;
-    top: 1.2em;
-    left: 0.4em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     font-size: 2em;
     color: #cc9900;
 }
@@ -62,8 +63,9 @@ body {
 }
 .button p {
     position: absolute;
-    top: 1.2em;
-    left: 0.9em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     font-size: 2em;
     color: #cc0000;
 }
