@@ -102,8 +102,8 @@ var r = {
 }
 var EarthInfo = {
     mass: {
-        n: 0,
-        log: 0
+        n: 6,
+        log: 24
     },
     speed: {
         top: 0,
@@ -116,8 +116,8 @@ var EarthInfo = {
 };
 var SunInfo = {
     mass: {
-        n: 0,
-        log: 0
+        n: 1.5,
+        log: 30
     },
     speed: {
         top: 0,
@@ -178,3 +178,4 @@ setInterval(function() {
         PlanetMove();
     }
 },1000/time);
+isplaying = true
